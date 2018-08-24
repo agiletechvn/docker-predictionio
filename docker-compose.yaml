@@ -25,4 +25,8 @@ services:
     working_dir: /home/pio/engine
     ports:
       - 7070:9000
-    entrypoint: pio-start-all
+    command:
+      - sh
+      - '-c'
+      - |
+        pio-start-all
