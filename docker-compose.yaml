@@ -20,7 +20,7 @@ services:
     image: steveny/predictionio:0.12.0
     container_name: node1
     volumes:
-      - ./home/pio/engine:/EngineTemplate
+      - ./EngineTemplate:/home/pio/engine
     tty: true
     working_dir: /home/pio/engine
     ports:
