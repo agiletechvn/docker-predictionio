@@ -22,7 +22,7 @@ services:
     volumes:
       - ./home/pio/engine:/EngineTemplate
     tty: true
-    working_dir: /tendermint
+    working_dir: /home/pio/engine
     ports:
       - 7070:9000
     entrypoint: pio-start-all
