@@ -25,9 +25,8 @@ services:
     working_dir: /home/pio/engine
     ports:
       - 7070:9000
-    entrypoint: ['tail', '-f', '/dev/null']
     command:
       - sh
       - '-c'
       - |
-        pio-start-all
+        pio-start-all;tail -f /dev/null
