@@ -18,7 +18,7 @@ version: '3'
 services:
   pio:
     image: steveny/predictionio:0.12.0
-    container_name: node1
+    container_name: pio
     volumes:
       - ./EngineTemplate:/home/pio/engine
     tty: true
