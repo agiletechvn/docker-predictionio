@@ -3,8 +3,8 @@
   "description": "Default settings",
   "engineFactory": "org.example.similarproduct.SimilarProductEngine",
   "datasource": {
-    "params" : {
-      "appName": "INVALID_APP_NAME"
+    "params": {
+      "appName": "MyApp1"
     }
   },
   "algorithms": [
@@ -12,7 +12,7 @@
       "name": "als",
       "params": {
         "rank": 10,
-        "numIterations" : 20,
+        "numIterations": 20,
         "lambda": 0.01,
         "seed": 3
       }
